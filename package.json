@@ -1,0 +1,23 @@
+{
+  "name": "koa-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Allencl/koa-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Allencl/koa-project/issues"
+  },
+  "homepage": "https://github.com/Allencl/koa-project#readme",
+  "dependencies": {
+    "koa": "^2.11.0"
+  }
+}
