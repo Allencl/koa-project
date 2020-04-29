@@ -7,14 +7,14 @@ app.use(async (ctx, next) => {
     console.log(111);
     const start = Date.now();
     await next();
-    console.log(222);
+
 
     const ms = Date.now() - start;
     ctx.set('X-Response-Time', `${321}ms`);
 });
 
 app.use(async (ctx, next) => {
-    console.log(333);
+    console.log(444);
 
     await next();
     console.log(444);
@@ -22,9 +22,9 @@ app.use(async (ctx, next) => {
 
 app.use( async ctx=>{
     // console.log('nini');
-    console.log(555);
+    console.log(555777);
 
-    ctx.body = 'Hello World';
+    ctx.body = 'Hello World 111';
 });
 
 app.listen(3000);
